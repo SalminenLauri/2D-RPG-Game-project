@@ -1,32 +1,11 @@
 # Introduction to Game Development Tools 2023 - Group 16
 
+Game made by me and four other group memeber for Game Development Tools course.
 
-### Git workflow example:   
+I was one the programmers for the project but also 
+did some of the UI and final polishing too.
 
-#### Start with master:
+Below is a video of the Final project. 
 
-git checkout master
+https://github.com/SalminenLauri/2D-RPG-Game-project/assets/61330163/abf0730c-7d28-436f-9801-68f0280ed93c
 
-#### Get latest changes:  
-
-git pull --rebase
-
-#### Make own feature-branch:
-
-git checkout -b feature/new-feature
-
-...Do stuff and things
-
-#### Time to add feature to git:
-
-git add -A
-
-git commit -m "feat: new feature x"
-
-git fetch origin
-
-git rebase origin/master
-
-git push --set-upstream origin feature/new-feature
-
-New branch is added and can be viewed at https://github.com/hapsal/igdt-g16/pulls before pushing to master branch just in case of any conflicts.
